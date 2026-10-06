@@ -1,9 +1,11 @@
-[README.md](https://github.com/user-attachments/files/33114489/README.md)
+[README.md](https://github.com/user-attachments/files/33115018/README.md)
 # Triqui (Tic-Tac-Toe)
 
 Juego de Triqui (gato / 3 en rata) desarrollado en **React Native con Expo SDK 57**, con soporte para **2 jugadores** y **contra la computadora**, historial de jugadas navegable y resaltado de la línea ganadora.
 
 Funciona en **Android, iOS y Web** desde la misma base de código.
+
+**Desarrollado por:** Joan Sebastian Sanchez Jaimes
 
 ---
 
@@ -157,6 +159,14 @@ npx expo export --platform android   # Comprobación de bundle (opcional)
 
 - **Expo Go sólo incluye los módulos nativos que vienen incluidos.** Si agregas una librería con código nativo, necesitarás un development build: `npx expo run:android` / `npx expo run:ios`, o `eas build --profile development`.
 - Para builds en la nube y actualizaciones OTA se usa **EAS** (`npx eas-cli build`, `npx eas-cli update`).
+
+---
+
+## Autor
+
+**Joan Sebastian Sanchez Jaimes**
+
+Este crédito también aparece en la aplicación, dentro del pie de página (`src/components/Footer.jsx`).
 
 ---
 
